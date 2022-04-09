@@ -1,0 +1,20 @@
+button {
+  font-size: 16px;
+  border-radius: 5px;
+  min-width: 150px;
+  height: 38px;
+  line-height: 38;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+button.primary {
+  background-color: #1f51ff;
+  color: white;
+}
+button.secondary {
+  background-color: hotpink;
+  color: white;
+}

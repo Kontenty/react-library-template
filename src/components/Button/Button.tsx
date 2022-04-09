@@ -1,9 +1,15 @@
 import React from "react";
+import type { ReactNode } from "react";
+import "./Button.css";
 
-type Props = { label: string };
+type Props = { children: ReactNode; variant?: "primary" | "secondary" };
 
-const Button = ({ label }: Props) => {
-  return <button type="button">{label}</button>;
+const Button = ({ children, variant = "primary" }: Props) => {
+  return (
+    <button type="button" className={`${variant}`}>
+      {children}
+    </button>
+  );
 };
 
 export default Button;
