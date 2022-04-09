@@ -1,7 +1,10 @@
 {
-  "name": "btn-component",
+  "name": "@kontenty/react-library-template",
   "version": "0.0.1",
   "description": "simple react button component",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/kontenty"
+  },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
