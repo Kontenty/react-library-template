@@ -1,6 +1,6 @@
 {
   "name": "@kontenty/react-library-template",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "simple react button component",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/kontenty"
