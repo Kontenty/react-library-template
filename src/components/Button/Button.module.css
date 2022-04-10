@@ -1,4 +1,4 @@
-button {
+.button {
   font-size: 16px;
   border-radius: 5px;
   min-width: 150px;
@@ -10,11 +10,11 @@ button {
   cursor: pointer;
 }
 
-button.primary {
+.button.primary {
   background-color: #1f51ff;
   color: white;
 }
-button.secondary {
+.button.secondary {
   background-color: hotpink;
   color: white;
 }
