@@ -1,13 +1,13 @@
 import React from "react";
 import type { ReactNode } from "react";
-import clsn from "classnames";
-import css from "./Button.module.css";
+import cx from "classnames";
+import "./Button.css";
 
 type Props = { children: ReactNode; variant?: "primary" | "secondary" };
 
 const Button = ({ children, variant = "primary" }: Props) => {
   return (
-    <button type="button" className={clsn(css.button, css[variant])}>
+    <button type="button" className={cx("button", variant)}>
       {children}
     </button>
   );

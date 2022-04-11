@@ -10,11 +10,11 @@
   cursor: pointer;
 }
 
-.button.primary {
+.primary {
   background-color: #1f51ff;
   color: white;
 }
-.button.secondary {
+.secondary {
   background-color: hotpink;
   color: white;
 }
