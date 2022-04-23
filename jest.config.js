@@ -1,5 +1,11 @@
+// Sync object
+/** @type {import('@jest/types').Config.InitialOptions} */
+
 const jestConfig = {
-  testEnviroment: "jsdom",
+  testEnvironment: "jsdom",
+  moduleNameMapper: {
+    "\\.(css|less|scss|sass)$": "identity-obj-proxy",
+  },
 };
 
 module.exports = jestConfig;
