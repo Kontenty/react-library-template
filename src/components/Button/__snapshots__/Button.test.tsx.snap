@@ -1,14 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button styles danger button appropriately 1`] = `
-<button
-  class="button danger"
-  type="button"
->
-  Danger
-</button>
-`;
-
 exports[`Button styles primary button appropriately 1`] = `
 <button
   class="button primary"

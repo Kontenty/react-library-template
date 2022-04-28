@@ -15,7 +15,8 @@
     "build": "rollup -c",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "Konrad Gorski",
@@ -39,6 +40,7 @@
     "@types/react": "^17.0.44",
     "babel-jest": "^27.5.1",
     "babel-loader": "^8.2.4",
+    "husky": "^7.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "postcss-preset-env": "^7.4.3",
